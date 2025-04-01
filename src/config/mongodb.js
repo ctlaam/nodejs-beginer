@@ -16,7 +16,7 @@ const mongoClientInstance = new MongoClient(MONGODB_URI, {
     serverApi: {
         version: ServerApiVersion.v1,
         strict: true,
-        deprecationErrors: true,
+        deprecationErrors: true, 
     }
 })
 
